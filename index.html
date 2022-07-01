@@ -2,16 +2,18 @@
 <html lang="ua">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simple-1</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
     </head>
     <body>
-        <div class="fresh">
-            <div class="wraper fresh__wraper">
-                <header class="fresh__header">
-                    <div class="fresh__logo">Cahee</div>
+        <header class="fresh">
+            <div class="fresh__wraper wraper">
+                <div class="fresh__header">
+                    <p class="fresh__logo">Cahee</p>
                     <nav class="fresh__nav">
                         <a href="#" class="fresh__page">HOME</a>
                         <a href="#" class="fresh__page">ABOUT</a>
@@ -20,117 +22,118 @@
                         <a href="#" class="fresh__page">BLOG</a>
                         <a href="#" class="fresh__page">CONTACT</a>
                     </nav>
-                </header>
-                <main class="fresh__main">
+                </div>
+                <div class="fresh__main">
                     <div class="fresh__title">Fresh Life</div>
-                    <div class="fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
+                    <p class="fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                     <a href="#" class="fresh__link btn">GET FREE NOW</a>
-                </main>
+                </div>
                 <img src="images/scroll.png" alt="scroll" class="fresh__scroll">
             </div>
-        </div>
-        <div class="about">
-            <div class="wraper about__wraper">
-                <img class="about__img" src="images/2.png" alt="coffee">
-                <div class="about__section">
-                    <div class="about__title">About Us</div>
-                    <div class="about__text">
-                        <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                        <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </header>
+        <main>
+            <section class="about">
+                <div class="about__wraper wraper">
+                    <img class="about__img" src="images/2.png" alt="coffee">
+                    <div class="about__section">
+                        <div class="about__title">About Us</div>
+                        <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                        <p class="about__text">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="service">
-            <div class="wraper service__wraper">
-                <div class="service__links">
-                    <a href="#" class="service__link">
-                        <div class="service__link-title">Online Shopping</div>
-                        <img src="images/icon1.png" alt="icon" class="service__icon">
-                    </a>
-                    <a href="#" class="service__link">
-                        <div class="service__link-title">Quality Product</div>
-                        <img src="images/icon2.png" alt="icon" class="service__icon">
-                    </a>
-                    <a href="#" class="service__link">
-                        <div class="service__link-title">Domestic & International Delivery</div>
-                        <img src="images/icon3.png" alt="icon" class="service__icon">
-                    </a>
-                    <a href="#" class="service__link">
-                        <div class="service__link-title">Well Organized</div>
-                        <img src="images/icon4.png" alt="icon" class="service__icon">
-                    </a>
-                </div>
-                <div class="service__title">Our Services</div>
-            </div>
-        </div>
-        <div class="galery">
-            <div class="wraper galery__wraper">
-                <div class="galery__title">Gallery</div>
-                <div class="galery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <div class="galery__images">
-                    <img src="images/img1.png" alt="photo" class="galery__image"></img>
-                    <img src="images/img2.png" alt="photo" class="galery__image"></img>
-                    <img src="images/img3.png" alt="photo" class="galery__image"></img>
-                    <img src="images/img4.png" alt="photo" class="galery__image"></img>
-                    <img src="images/img5.png" alt="photo" class="galery__image"></img>
-                </div>
-                <a href="#" class="galery__link btn">VIEW MORE</a>
-            </div>
-        </div>
-        <div class="subscribe">
-            <div class="wraper subscribe__wraper">
-                <div class="subscribe__title">Subscribe To Us</div>
-                <div class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                <input type="text" class="subscribe__input" id="sub" value="Your email address...">
-                <label class="subscribe__lable" for="sub"><a href="#" class="subscribe__link btn">SUBSCRIBE</a></label>
-            </div>
-        </div>
-        <div class="blog">
-            <div class="wraper blog__wraper">
-                <div class="blog__title">Blog</div>
-                <div class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</div>
-                <div class="blog__items">
-                    <div class="blog__item">
-                        <div class="blog__data">20 <span class="blog__month">NOV</span></div>
-                        <div class="blog__item-title">Green Smoothies: Too Much of a Good Thing?</div>
-                        <div class="blog__item-author">By Auskteez - 2 hours ago</div>
+            </section>
+            <section class="service">
+                <div class="service__wraper wraper">
+                    <div class="service__links">
+                        <a href="#" class="service__link">
+                            <div class="service__link-title">Online Shopping</div>
+                            <img src="images/icon1.png" alt="icon" class="service__icon">
+                        </a>
+                        <a href="#" class="service__link">
+                            <div class="service__link-title">Quality Product</div>
+                            <img src="images/icon2.png" alt="icon" class="service__icon">
+                        </a>
+                        <a href="#" class="service__link">
+                            <div class="service__link-title">Domestic & International Delivery</div>
+                            <img src="images/icon3.png" alt="icon" class="service__icon">
+                        </a>
+                        <a href="#" class="service__link">
+                            <div class="service__link-title">Well Organized</div>
+                            <img src="images/icon4.png" alt="icon" class="service__icon">
+                        </a>
                     </div>
-                    <div class="blog__item">
-                        <div class="blog__data">14 <span class="blog__month">NOV</span></div>
-                        <div class="blog__item-title">Growing Food and a “Thirst” for Innovation</div>
-                        <div class="blog__item-author">By Auskteez - 3 hours ago</div>
+                    <div class="service__title">Our Services</div>
+                </div>
+            </section>
+            <section class="galery">
+                <div class="galery__wraper wraper">
+                    <div class="galery__title">Gallery</div>
+                    <p class="galery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="galery__images">
+                        <div class="galery__image"><img src="images/img1.png" alt="photo"></div>
+                        <div class="galery__image"><img src="images/img2.png" alt="photo"></div>
+                        <div class="galery__image"><img src="images/img3.png" alt="photo"></div>
+                        <div class="galery__image"><img src="images/img4.png" alt="photo"></div>
+                        <div class="galery__image"><img src="images/img5.png" alt="photo"></div>
                     </div>
-                    <div class="blog__item">
-                        <div class="blog__data">10 <span class="blog__month">NOV</span></div>
-                        <div class="blog__item-title">Pesticides & Food: What You Need to Know</div>
-                        <div class="blog__item-author">By Auskteez - 6 hours ago</div>
+                    <a href="#" class="galery__link btn">VIEW MORE</a>
+                </div>
+            </section>
+            <section class="subscribe">
+                <div class="subscribe__wraper wraper">
+                    <div class="subscribe__title">Subscribe To Us</div>
+                    <p class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <input type="text" class="subscribe__input" id="sub" placeholder="Your email address...">
+                    <label class="subscribe__lable" for="sub"><a href="#" class="subscribe__link btn">SUBSCRIBE</a></label>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="blog__wraper wraper">
+                    <div class="blog__title">Blog</div>
+                    <p class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                    <div class="blog__items">
+                        <div class="blog__item">
+                            <div class="blog__data">20 <span class="blog__month">NOV</span></div>
+                            <div class="blog__item-title">Green Smoothies: Too Much of a Good Thing?</div>
+                            <div class="blog__item-author">By Auskteez - 2 hours ago</div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__data">14 <span class="blog__month">NOV</span></div>
+                            <div class="blog__item-title">Growing Food and a “Thirst” for Innovation</div>
+                            <div class="blog__item-author">By Auskteez - 3 hours ago</div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__data">10 <span class="blog__month">NOV</span></div>
+                            <div class="blog__item-title">Pesticides & Food: What You Need to Know</div>
+                            <div class="blog__item-author">By Auskteez - 6 hours ago</div>
+                        </div>
+                    </div>
+                    <a href="#" class="blog__link btn">VIEW MORE</a>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__wraper wraper">
+                    <div class="contact__title">Contact</div>
+                    <p class="contact__text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+                    <div class="contact__section">
+                        <form class="contact__form">
+                            <input class="contact__input" type="text" placeholder="Auskteez Tran">
+                            <input class="contact__input" type="text" placeholder="Your email...">
+                            <input class="contact__input" type="text" placeholder="Your phone number...">
+                            <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10">Your messge...</textarea>
+                        </form>
+                        <div class="contact__aside"><span class="bold">ADDRESS</span><br>123 City name, Street, City, Country<br><span class="bold">EMAIL</span><br>cahee@domain.com<br><span class="bold">PHONE</span><br><a class="phone" href="#">+012 345 6789</a></div>
                     </div>
                 </div>
-                <a class="blog__link btn">VIEW MORE</a>
-            </div>
-        </div>
-        <div class="contact">
-            <div class="wraper contact__wraper">
-                <div class="contact__title">Contact</div>
-                <div class="contact__text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</div>
-                <div class="contact__section">
-                    <div class="contact__form">
-                        <input class="contact__input" type="text" value="Auskteez Tran">
-                        <input class="contact__input" type="text" value="Your email...">
-                        <input class="contact__input" type="text" value="Your phone number...">
-                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10">Your messge...</textarea>
-                    </div>
-                    <div class="contact__aside"><b>ADDRESS</b><br>123 City name, Street, City, Country<br><b>EMAIL</b><br>cahee@domain.com<br><b>PHONE</b><br>+012 345 6789</div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="wraper footer__wraper">
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__wraper wraper">
                 <div class="footer__copyright">© 2015 Company. All right reserved.</div>
                 <div class="footer__title">Cahee</div>
                 <div class="footer__author">Made with <span class="footer__span">love</span> by Auskteez</div>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
