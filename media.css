@@ -40,6 +40,9 @@
   .fresh__page {
     padding: 10px;
   }
+  .fresh__link {
+    margin-bottom: 50px;
+  }
   .about__img {
     width: 50%;
   }
@@ -70,6 +73,18 @@
   }
   .fresh__header {
     margin-bottom: 50px;
+  }
+  .fresh__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fresh__text {
+    width: 90%;
+  }
+  .fresh__link {
+    margin-bottom: 30px;
   }
   .about__wraper {
     -webkit-box-orient: vertical;
@@ -142,6 +157,9 @@
   }
   .fresh__link {
     margin-bottom: 40px;
+  }
+  .fresh__text {
+    width: 70%;
   }
   .about__title {
     font-size: 50px;

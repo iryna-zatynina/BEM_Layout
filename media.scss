@@ -54,6 +54,10 @@
         &__page {
             padding: 10px;
         }
+
+        &__link {
+            margin-bottom: 50px;
+        }
     }
 
     .about {
@@ -102,8 +106,18 @@
         max-width: 480px;
     }
     .fresh {
+        
         &__header {
             margin-bottom: 50px;
+        }
+        &__nav {
+            flex-direction: column;
+        }
+        &__text {
+            width: 90%;
+        }
+        &__link {
+            margin-bottom: 30px;
         }
     }
 
@@ -204,6 +218,9 @@
         }
         &__link {
             margin-bottom: 40px;
+        }
+        &__text {
+            width: 70%;
         }
     }
     .about {
